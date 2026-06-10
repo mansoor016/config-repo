@@ -1,0 +1,9 @@
+#Steps to implement updated_Time and updated_Data
+#Quick Checklist
+
+1.@EnableJpaAuditing ->on main class                                ✅ Add karo
+2.@EntityListeners(AuditingEntityListener.class)-> on Entity        ✅ Check karo
+3.@CreatedDate-> on createdAt                                       ✅ Check karo
+4.@LastModifiedDate-> on updatedAt                                  ✅ Check karo
+
+Notes: Dates not set manually in service✅ Check karo
